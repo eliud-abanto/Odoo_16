@@ -1,8 +1,7 @@
-# Instalación de Odoo 16 con docker-compose
-### Requisitos
+Instalación de Odoo 16 con docker-compose
+Requisitos
 * Tener instalado docker y docker-compose
-
-### Pasos
+ Pasos
 1. Duplicar y renombrar: 
     * Duplicar copy.odoo-postgres.docker-compose.yaml y renombrar la copia con el nombre docker-compose.yaml.
     * Duplicar copy.env y renombrar la copia con el nombre .env.
@@ -27,6 +26,3 @@ En la misma raiz del proyecto donde se encuentra docker-compose.yaml, debes ejec
     * El parámetro WEB_PORT lo definiste en el archivo .env
     * Ingresa a localhost:<WEB_PORT>
     * Siendo la primera vez que ingresas al sistema, el sistema te mostrará un formulario para que puedas crear una base de datos.
-
-### Contáctanos
-Si has tenido alguna dificultad en alguno de estos pasos o tienes consultas, puedes contactarnos al correo hola@bigodoo.com y con gusto te brindaremos una asesoría.
